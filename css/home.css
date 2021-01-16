@@ -1,14 +1,13 @@
 *{
     font-family: 'Noto Sans JP', sans-serif;
-}
-#logobakery{
-    width: 30%;
-    height: auto;
-}
 
-#navbarbake{
-    padding-left: 294px;
-    padding-right: 294px;
-    border-bottom: 1px;
-    border-top: 1px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+#logo{
+    width: 375px;
+    height: auto;
+
 }
