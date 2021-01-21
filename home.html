@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="libs/bootstrap-3.4.1/js/button.js"></script>
+    <script src="libs/bootstrap-3.4.1/js/dropdown.js"></script>
+    <script src="libs/bootstrap-3.4.1/js/collapse.js"></script>
+    <script src="libs/bootstrap-3.4.1/js/tab.js"></script>
+
 
 </head>
 <body>
@@ -21,11 +25,43 @@
         </div>
     </section>
     <section class="section">
-        <div class="container">
+        <div class="container visible-xs hidden-md">
+            <nav id="navbars" role="navigation" class="nav">
+                <ul class="nav">
+                    <li role="presentation"><a href="home.html">Home</a></li>
+                    <li role="presentation"><a href="home.html">Recipes</a></li>
+                    <li role="presentation">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Resources<span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li role="presentation"><a href="#">How to start a food blog</a></li>
+                            <li role="presentation"><a href="#">Camera gears</a></li>
+                            <li role="presentation"><a href="#">Artificial lighting for food photography</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation"><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container hidden-xs">
             <nav id="navbars" role="navigation" class="nav">
                 <ul class="nav nav-tabs">
                     <li role="presentation"><a href="home.html">Home</a></li>
-                    <li role="presentation"><a href="home.html">Home</a></li>
+                    <li role="presentation"><a href="home.html">Recipes</a></li>
+                    <li role="presentation">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            Resources<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li role="presentation"><a href="#">How to start a food blog</a></li>
+                            <li role="presentation"><a href="#">Camera gears</a></li>
+                            <li role="presentation"><a href="#">Artificial lighting for food photography</a></li>
+                        </ul>
+                    </li>
+                    <li role="presentation"><a href="#">About</a></li>
                 </ul>
             </nav>
         </div>
