@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/css/bootstrap.css">
+    <script src="libs/jquery/jquery-3.5.1.js"></script>
+</head>
+<body>
+<section class="col-md-12">
+    <div class="container">
+        <button type="button" class="btn btn-default" onclick="showOn()">ON</button>
+        <button type="button" class="btn btn-default" onclick="showOff()">OFF</button>
+        <button type="button" class="btn btn-default" onclick="showOnOff()">ON/OFF</button>
+    </div>
+</section>
+<section class="col-md-12">
+    <div class="container">
+        <form action="#" method="get" class="login">
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" name="email" placeholder="Email"/>
+                <label>Username</label>
+                <input class="form-control" name="username" placeholder="Username"/>
+            </div>
+        </form>
+    </div>
+</section>
+<script src="libs/jquery/jquery-3.5.1.js"></script>
+<script type="text/javascript">
+    function showOn() {
+        var lg = $(".login");
+        // lg.show();
+        // lg.fadeIn(200);
+        lg.slideDown();
+    }
+    function showOff() {
+        var lg = $(".login");
+        // lg.hide();
+        // lg.fadeOut(200);
+        lg.hide();
+    }
+    var flag = true;
+    function showOnOff() {
+        var lg = $(".login");
+        // lg.toggle();
+        // lg.fadeToggle();
+        // lg.slideToggle();
+        if(flag) {
+            lg.animate({
+                "margin": "200px"
+            }, 400)
+            flag = false;
+        }else{
+            lg.animate({
+                "margin": "0px"
+            },400);
+            flag = true;
+        }
+    }
+</script>
+<section class="col-md-12">
+    <div class="container">
+        <button type="button" class="btn btn-default" onclick="clockStart()">START</button>
+        <button type="button" class="btn btn-default" onclick="clockPause()">PAUSE</button>
+        <button type="button" class="btn btn-default" onclick="clockStop()">STOP</button>
+        <h2><span id="min">00</span>:<span id="sec">00</span></h2>
+    </div>
+</section>
+<script type="text/javascript">
+    var min = document.getElementById("min");
+    var sec = document.getElementById("sec");
+    var m = 0;
+    var s = 0;
+    var clockStart = setInterval(function ()){
+        sec.innerText = s;
+
+    }
+</script>
+</body>
+</html>
