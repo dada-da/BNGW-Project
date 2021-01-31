@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JSON & AJAX</title>
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <section class="col-md-12">
+        <div class="container">
+            <div class="row list_items">
+
+            </div>
+        </div>
+    </section>
+
+<script src="libs/jquery/jquery-3.5.1.js"></script>
+<script type="text/javascript">
+    function loadData(){
+    $.ajax({
+        url:"https://foodgroup.herokuapp.com/api/today-special",
+        method:"get",
+        data:{},
+        success:function (rs) {
+            var items_arr = rs.data;
+            for(var i = 0; i <items_arr.length; i++){
+                var x = "<div class=\"col-md-4\">\n" +
+                    "                    <div class=\"item\">\n" +
+                    "                        <img src=\""+items_arr[i].image+"\" height=\"243\" width=\"200\"/>\n" +
+                    "                        <h2>"+items_arr[i].name+"</h2>\n" +
+                    "                        <p>"+items_arr[i].price+"</p>\n" +
+                    "                    </div>\n" +
+                    "                </div>"
+                $(".list_items").append(x);
+            }
+        }
+    })
+    }
+    loadData();
+</script>
+</body>
+</html>

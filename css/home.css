@@ -15,7 +15,9 @@
     font-size: 22px;
 
 }
-
+.starthidden{
+    display: none;
+}
 a{
     color: black;
     background-color: transparent;
@@ -25,4 +27,154 @@ a:hover {
     color: #b77b59;
     background-color: transparent;
     text-decoration: none;
+}
+h4{
+    letter-spacing: 3px;
+    line-height: 26px;
+}
+.text-spacing-1{
+    letter-spacing: 6px;
+}
+#text-date{
+    white-space: pre;
+    color: darkgray;
+    font-weight: 300;
+}
+#dateforpost p{
+    font-weight: 300;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#jenna{
+    color: #b77b59;
+}
+#jenna:hover{
+    filter: brightness(150%);
+}
+.mybtn{
+    background-color: #faf9f6;
+    border: none;
+    color: #b77b59;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+img:hover{
+    filter: opacity(70%);
+}
+
+.recent_posts{
+    padding-top: 110px;
+    letter-spacing: 0.2em;
+    font-size: 10px;
+}
+#recent_posts p{
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#hey_there img{
+    width: 460px;
+    height: auto;
+}
+#hey_there p{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+#sub_div{
+    background-color: #faf9f6;
+    height: 280px;
+}
+#sub_div p{
+    font-size: 11px;
+
+}
+.paddingforp_1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.paddingforp_2{
+    padding-top: 60px;
+    letter-spacing: 2px;
+}
+#sub_div input{
+    display: block;
+    width: 80%;
+    height: 34px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555555;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+#sub_div input[type=name]:focus{
+    border-color: #5e5e5e;
+    outline: 0;
+}
+#sub_div input[type=email]:focus{
+    border-color: #5e5e5e;
+    outline: 0;
+}
+#sub_div button{
+    background-color: #faf9f6;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border-radius: unset;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    width: 80%;
+}
+#sub_div button:hover{
+    color: #b77b59;
+    background-color: white;
+}
+
+#insta_feed p{
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#insta_feed img{
+    margin: 0;
+    width: 143px;
+    height: auto;
+    padding-bottom: 3px;
+}
+#insta_feed button{
+    box-sizing: border-box;
+    margin-top: 454px;
+    background-color: darkgrey;
+    border: none;
+}
+#insta_feed button:hover{
+    opacity: 70%;
 }

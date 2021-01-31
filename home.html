@@ -16,6 +16,7 @@
 
 </head>
 <body>
+<!-- For Mobile -->
     <section class="section">
         <div class="container">
             <div class="row">
@@ -26,17 +27,20 @@
         </div>
     </section>
     <section class="col-xs-12 visible-xs hidden-md">
+        <hr/>
         <div class="container-fluid">
-            <div class="row icons">
-              <i class="fas fa-bars icon-open col-xs-offset-5" onclick="showOn()"></i>
-              <i class="fas fa-times icon-close" onclick="showOff()"></i>
+            <div class="row center-block">
+              <i class="fas fa-bars icons col-xs-offset-5 on-off"></i>
             </div>
         </div>
-        <nav id="navbarxs" role="navigation" class="nav-small">
+        <hr/>
+        <nav id="navbarxs" role="navigation" class="nav-small starthidden">
             <ul class="nav nav-stacked">
                 <li role="separator" class="divider"></li>
                 <li role="presentation"><a href="home.html">Home</a></li>
+                <li><hr/></li>
                 <li role="presentation"><a href="home.html">Recipes</a></li>
+                <li><hr/></li>
                 <li role="presentation">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         Resources<span class="caret"></span>
@@ -46,33 +50,162 @@
                         <li role="presentation"><a href="#">Camera gears</a></li>
                         <li role="presentation"><a href="#">Artificial lighting for food photography</a></li>
                     </ul>
-                </li>
-                <li role="presentation"><a href="#">About</a></li>
-                <ul class="nav nav-tabs">
+                    <li><hr/></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    </ul>
+            <hr/>
+            <ul class="nav nav-pills">
                 <li role="presentation"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="far fa-envelope"></i></a></li>
                 <li role="presentation"><a href="https://www.facebook.com/butternutbakeryblog"><i class="fab fa-facebook-f"></i></a></li>
                 <li role="presentation"><a href="https://www.instagram.com/butternutbakery/"><i class="fab fa-instagram"></i></a></li>
                 <li role="presentation"><a href="https://www.pinterest.com/butternutbakery/_created/"><i class="fab fa-pinterest-p"></i></a></li>
-                </ul>
             </ul>
+            <hr/>
         </nav>
     </section>
+    <section class="col-xs-12 visible-xs hidden-md">
+        <div class="container">
+            <div id="dateforpost" class="row">
+                <a href="#">
+                <h4>CRUNCHY PEANUT BUTTER ENERGY BALLS</h4>
+                </a>
+                <p id="text-date">January 27, 2021   /   By <a id="jenna" href="#">Jenna</a></p>
+                <a href="#">
+                <img src="imgs/post/crunchy-peanut-energyball-1024x1536.jpg" class="img-responsive" height="1536" width="1024"/>
+                </a>
+                <p class="">If you’re someone who craves a little something sweet in the afternoon, or just 24/7 like I do, these crunchy peanut butter energy balls are the perfect snack. Made with filling complex carbs, healthy fats, and natural sweeteners, they’re a guilt-free treat that will satisfy any sweet tooth. What gives these peanut butter energy balls…</p>
+                <a href="#" class="mybtn" role="button">READ MORE</a>
+            </div>
+        </div>
+    </section>
+    <section id="recent_posts" class="col-xs-12 visible-xs hidden-md">
+        <div class="container">
+            <div class="row">
+                <p class="text-center recent_posts">RECENT POSTS</p>
+                <hr/>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                <a href="#">
+                    <img src="imgs/post/red-velvet-bundt-cake-1.jpg" class="img-responsive" height="1800" width="1200"/>
+                </a>
+                <a><p class="text-left">
+                    RED VELVET BUNDT CAKE
+                </p></a>
+                </div>
+            <div class="col-xs-6">
+                <a href="#">
+                    <img src="imgs/post/brown-butter-cinnamon-rolls.jpg" class="img-responsive" height="1800" width="1200"/>
+                </a>
+                <a>
+                    <p class="text-left">BROWN BUTTER CINNAMON ROLLS</p></a>
+            </div>
+            <div class="col-xs-6">
+                <a href="#">
+                    <img src="imgs/post/white-chocolate-pepper-mint.jpg" class="img-responsive" height="1800" width="1200"/>
+                </a>
+                <a>
+                <P class="text-left">WHITE CHOCOLATE PEPPERMINT CUPCAKES</P>
+                </a>
+            </div>
+            <div class="col-xs-12">
+                <a href="#"><img src="imgs/post/healthy-baked-oatmeal-flavors.jpg" class="img-responsive" height="1800" width="1200"/></a>
+                <a href="#">
+                    <p class="text-left">HEALTHY BAKED OATMEAL - 4 FLAVORS</p></a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="col-xs-12 visible-xs hidden-md">
+        <div class="container">
+        <div id="hey_there" class="row">
+            <a href="#">
+                <img src="imgs/Hey there.png" class="center-block" height="500" width=""/></a>
+            <hr/>
+            <p class="text-left">
+                Welcome to Butternut Bakery! I’m here to satisfy your insatiable sweet tooth and help perfect your baking skills. There are desserts here for everyone, whether you’re gluten free, vegan, or love your butter and flour. Either way, you’re sure to find your new favorite dessert recipe.
+            </p>
+            <a href="#">Read more about Jenna Barnard</a>
+            <hr/>
+        </div>
+        </div>
+    </section>
+    <section class="col-xs-12 visible-xs hidden-md">
+        <div class="container">
+        <div class="row">
+            <a href="https://butternutbakeryblog.com/category/valentines-day-dessert-recipes/">
+                <img src="imgs/Click here.png" class="center-block" height="510" width="auto"/></a>
+            <hr/>
+        </div>
+        </div>
+    </section>
+    <section class="col-xs-12 visible-xs hidden-md">
+        <div class="container">
+        <div class="row">
+            <form>
+                <div class="form-group" id="sub_div">
+                   <p class="text-center paddingforp_2">SUBSCRIBE</p>
+                    <p class="text-center paddingforp_1">for my FREE guide on how bake perfect cookies</p>
+                    <input type="name" class="center-block" id="InputName1" placeholder="first name">
+                    <input type="email" class="center-block" id="InputEmail1" placeholder="email address">
+                    <button type="submit" class="btn btn-primary center-block">GO</button>
+                </div>
+            </form>
+            <a href="https://butternutbakeryblog.com/shop/" class="center-block">
+                <img src="imgs/click_to_shop_600x148.png" class="center-block" id="clickto_shop" height="auto" width="300"/></a>
+            <hr/>
+        </div>
+        </div>
+    </section>
+    <section class="col-xs-12 visible-xs hidden-md">
+       <div class="container" id="insta_feed">
+        <div class="row center-block">
+            <p class="text-center">FOLLOW ME ON INSTAGRAM</p>
+            <a href="https://www.instagram.com/p/CKjYo6dpdfU/" class="col-xs-4">
+                <img src="imgs/insta/1.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKgx_0Oprht/" class="col-xs-4">
+                <img src="imgs/insta/2.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKeOEIEJS-n/" class="col-xs-4">
+                <img src="imgs/insta/3.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKWflvKJGjk/" class="col-xs-4">
+                <img src="imgs/insta/4.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKT9oJ0JfCY/" class="col-xs-4">
+                <img src="imgs/insta/5.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKRa43fpWU1/" class="col-xs-4">
+                <img src="imgs/insta/6.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKOyp41pwWS/" class="col-xs-4">
+                <img src="imgs/insta/7.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKMMCxzJFkF/" class="col-xs-4">
+                <img src="imgs/insta/8.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKEepXapiNL/" class="col-xs-4">
+                <img src="imgs/insta/9.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/butternutbakery/">
+                <button class="btn btn-primary center-block"><i class="fab fa-instagram"></i> Follow on Instagram</button>
+            </a>
+            <hr/>
+        </div>
+       </div>
+    </section>
     <script type="text/javascript">
-        function showOn() {
-            var lg = $(".nav-small");
-            // lg.show();
-            // lg.fadeIn();
-            lg.slideDown(600);
-
+        var onoff = $(".on-off");
+        onoff.bind("click",showOnOff);
+        var flag = true;
+        function showOnOff(){
+            var nav_for_xs = $(".nav-small");
+            if(flag){
+                nav_for_xs.slideDown(600);
+                flag = false;
+            }else{
+                nav_for_xs.slideUp(500);
+                flag = true;
+            }
         }
-        function showOff() {
-            var lg = $(".nav-small");
-            lg.slideUp(600);
-            // lg.fadeOut();
-            // lg.slideUp();
-
-        }
+    $(".icons").click(function (){
+        $(".fa-bars").toggleClass("fa-times");
+    })
     </script>
+    <!-- bellow for PC -->
+
     <section class="section">
         <div class="container hidden-xs">
             <nav id="navbar" role="navigation" class="nav">
