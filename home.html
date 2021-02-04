@@ -17,7 +17,7 @@
 </head>
 <body>
 <!-- For Mobile -->
-    <section class="section">
+    <section class="col-xs-12 visible-xs hidden-md">
         <div class="container">
             <div class="row">
                 <a href="home.html">
@@ -242,31 +242,66 @@
     })
     </script>
     <!-- bellow for PC -->
-
-    <section class="section">
-        <div class="container hidden-xs">
-            <nav id="navbar" role="navigation" class="nav">
-                <ul class="nav nav-tabs">
-                    <li role="separator" class="divider"></li>
-                    <li role="presentation"><a href="home.html">Home</a></li>
-                    <li role="presentation"><a href="home.html">Recipes</a></li>
+    <section class="col-md-12 hidden-xs">
+    <div class="container">
+        <div class="row">
+            <a href="home.html">
+                <img id="logobig" class="center-block" src="imgs/Logo.png" height="340" width="640"/>
+            </a>
+        </div>
+    </div>
+    </section>
+    <section class="col-md-12 hidden-xs">
+        <div class="container">
+            <div class="row">
+                <hr/>
+            <nav id="navbar" role="navigation" class="">
+                <ul id="nav-items" class="nav nav-pills">
+                    <li role="separator" class=""></li>
+                    <li role="presentation"><a href="home.html" class="text-uppercase">Home</a></li>
+                    <li role="presentation"><a href="home.html" class="text-uppercase">Recipes</a></li>
                     <li role="presentation">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            Resources<span class="caret"></span>
+                        <a class="dropdown-toggle text-uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            Resources
                         </a>
-                        <ul class="dropdown-menu">
-                            <li role="presentation"><a href="#">How to start a food blog</a></li>
-                            <li role="presentation"><a href="#">Camera gears</a></li>
-                            <li role="presentation"><a href="#">Artificial lighting for food photography</a></li>
+                        <ul id="resources" class="dropdown-menu">
+                            <li role="presentation"><a href="#" class="text-uppercase">How to start a food blog</a></li>
+                            <li role="presentation"><a href="#" class="text-uppercase">Camera gears</a></li>
+                            <li role="presentation"><a href="#" class="text-uppercase">Artificial lighting for food photography</a></li>
                         </ul>
-                    </li>
-                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">ABOUT</a></li>
                     <li role="presentation"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="far fa-envelope"></i></a></li>
                     <li role="presentation"><a href="https://www.facebook.com/butternutbakeryblog"><i class="fab fa-facebook-f"></i></a></li>
                     <li role="presentation"><a href="https://www.instagram.com/butternutbakery/"><i class="fab fa-instagram"></i></a></li>
                     <li role="presentation"><a href="https://www.pinterest.com/butternutbakery/_created/"><i class="fab fa-pinterest-p"></i></a></li>
-                </ul>
+                    </ul>
             </nav>
+                <hr/>
+        </div>
+        </div>
+    </section>
+    <section class="col-md-12 hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" id="post_pc">
+                    <a href="#">
+                        <h4 class="left-for-text">CHOCOLATE COVERED RASPBERRY MOUSSE BARS</h4>
+                    </a>
+                    <p id="text-date-big" class="left-for-text">February 2, 2021   /   By <a id="jenna" href="#">Jenna</a></p>
+                    <img src="imgs/post/raspberry-mousse-bars-close-up-683x1024.jpg" height="1024" width="683"/>
+                    <p id="cap_pic_post" class="left-for-text">These raspberry mousse bars are the perfect balance of tart, sweet, creamy, and rich. The filling has a chocolate cookie base which is then topped with a simple cream cheese raspberry mousse – all dunked in dark chocolate. It’s a sweet no bake treat that can easily be made gluten free. It’s the perfect Valentine’s…</p>
+                </div>
+                <div id="hey_there_big" class="col-md-3">
+                    <a href="#">
+                        <img src="imgs/Hey there.png" class="center-block" height="300" width="305"/></a>
+                    <hr/>
+                    <p class="">
+                        Welcome to Butternut Bakery! I’m here to satisfy your insatiable sweet tooth and help perfect your baking skills. There are desserts here for everyone, whether you’re gluten free, vegan, or love your butter and flour. Either way, you’re sure to find your new favorite dessert recipe.
+                    </p>
+                    <a href="#">Read more about Jenna Barnard</a>
+                    <hr/>
+                </div>
+            </div>
         </div>
     </section>
 </body>
