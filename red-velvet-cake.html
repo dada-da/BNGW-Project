@@ -14,8 +14,8 @@
     <script src="libs/bootstrap-3.4.1/js/button.js"></script>
 </head>
 <body>
-<!-- Nav For Mobile -->
-<section class="section">
+<!-- Mobile -->
+<section class="col-xs-12 visible-xs hidden-md">
     <div class="container">
         <div class="row">
             <a href="home.html">
@@ -60,26 +60,222 @@
         </ul>
         <hr/>
     </nav>
-</section>
-<script type="text/javascript">
-    var onoff = $(".on-off");
-    onoff.bind("click",showOnOff);
-    var flag = true;
-    function showOnOff(){
-        var nav_for_xs = $(".nav-small");
-        if(flag){
-            nav_for_xs.slideDown(600);
-            flag = false;
-        }else{
-            nav_for_xs.slideUp(500);
-            flag = true;
+    <script type="text/javascript">
+        var onoff = $(".on-off");
+        onoff.bind("click",showOnOff);
+        var flag = true;
+        function showOnOff(){
+            var nav_for_xs = $(".nav-small");
+            if(flag){
+                nav_for_xs.slideDown(600);
+                flag = false;
+            }else{
+                nav_for_xs.slideUp(500);
+                flag = true;
+            }
         }
-    }
-    $(".icons").click(function (){
-        $(".fa-bars").toggleClass("fa-times");
-    })
-</script>
-<!-- nav for PC -->
+        $(".icons").click(function (){
+            $(".fa-bars").toggleClass("fa-times");
+        })
+    </script>
+</section>
+<section class="col-xs-12 visible-xs hidden-md">
+    <div class="container">
+        <div id="dateforpost" class="row">
+            <a href="#">
+                <h4 class="text-left-xs">RED VELVET BUNDT CAKE</h4>
+            </a>
+            <p id="text-date" class="text-left-xs">January 25, 2021   /   By <a id="jenna" href="#">Jenna</a></p>
+            <p class="text-posts-xs">This red velvet bundt cake is so moist and effortless, but looks and tastes so amazing! The texture is rich and tender, the flavor has that signature hint of chocolate, and the color is the perfect shade of deep red velvet. The cake is delicious on its own, but I’ve enhanced this recipe by adding a silky cream cheese icing on top. You just can’t go wrong with red velvet and cream cheese!</p>
+            <a href="#">
+                <img src="imgs/post/red-velvet-bundt-cake-1.jpg" class="img-responsive img-xs-padding-post" height="1536" width="1024"/>
+            </a>
+            <img src="imgs/post/red-vevlet/red-velvet-bundt-cake-slice-1024x1536.jpg" class="img-responsive img-xs-padding-post" height="1536" width="1024"/>
+            <h4 class="text-left-xs">WHAT IS RED VELVET CAKE?</h4>
+            <p class="text-posts-xs">You can never quite put your finger on it. It’s a red cake that doesn’t quite taste like chocolate or vanilla and sometimes feels like it’s just a carrier from cream cheese toppings. I’m not even sure anyone can describe the exact flavor of it!</p>
+            <p class="img-xs-padding-post text-posts-xs">Historically, it was invented in the Victorian era. It was named a “velvet” cake because of its creamy and dense chocolate cake-like texture.</p>
+            <p class="img-xs-padding-post text-posts-xs">To achieve this texture, buttermilk and vinegar are two very common ingredients in red velvet cake. Once added to the batter, the two activate the baking soda to create a fluffy but “velvety” texture. And when the cake was first created, the cocoa powder used wasn’t alkalized, so it would give the cake a reddish hue when combined with these ingredients.</p>
+            <p class="img-xs-padding-post text-posts-xs">So with the hint of cocoa and acidity, you’re left with a slightly chocolatey, tangy, and silky red cake. While no one can pinpoint the exact origin of red velvet cake, we’re all in agreement that it’s a REALLY good cake that just never fails.</p>
+            <img src="imgs/post/red-vevlet/cake-batter-wet-ingredients-1024x1536.jpg" class="col-xs-6 img-small-post img-xs-padding-post" height="1536" width="1024"/>
+            <img src="imgs/post/red-vevlet/red-velvet-cake-batter-1024x1536.jpg" class="col-xs-6 img-small-post img-xs-padding-post" height="1536" width="1024"/>
+            <img src="imgs/post/red-vevlet/red-velvet-cake-1.jpg" class="img-big-post img-xs-padding-post" height="1800" width="1200"/>
+            <h4 class="text-left-xs">HOW TO MAKE AN INCREDIBLY MOIST RED VELVET BUNDT CAKE</h4>
+            <p class="img-xs-padding-post text-posts-xs">I know, I said it…moist. But this really is a super moist red velvet bundt cake OK! It took me four tests to get the recipe just right so you know it’s worth the “m” word.</p>
+            <p class="img-xs-padding-post text-posts-xs">Most cake recipes either use all butter or all oil. When I first made this recipe, I just used oil and boy did I get one oily cake. You would push your finger into it and you would be left with a pool of oil. No thank you.</p>
+            <p class="img-xs-padding-post text-posts-xs">The reason this is a super moist red velvet cake is because of the balance between the oil and the butter. Adding oil to a recipe helps it stay moist for a longer period of time. This is because, as opposed to butter, it lacks water so it won’t evaporate and dry out your cake.</p>
+            <p class="img-xs-padding-post text-posts-xs">But, using all oil can be messy and create a strange flavor…even with a mild oil like vegetable or canola. The butter helps to bring the flavor back down while also giving the cake a little bit more structure once cooled.</p>
+            <p class="img-xs-padding-post text-posts-xs">Of course, it wouldn’t be a red velvet cake without buttermilk and vinegar. Like I just mentioned, the two in conjunction with baking soda help to give this fluffy but silky texture to your cake. Mix that with the perfect balance of fats and you have the best red velvet cake recipe ever!</p>
+            <img src="imgs/post/red-vevlet/cream-cheese-icing-1024x1536.jpg" class="img-xs-padding-post img-big-post" height="1536" width="1024"/>
+            <img src="imgs/post/red-vevlet/pour-shot-1024x1536.jpg" class="img-xs-padding-post img-big-post" height="1536" width="1024"/>
+            <h4 class="text-left-xs">THE BEST FOOD COLORING TO USE IN RED VELVET CAKE</h4>
+            <p class="img-xs-padding-post text-posts-xs">To get that signature red velvet color, 2 tablespoons of red food dye are added to the batter. For red velvet cakes, I choose to use a liquid red food dye that you can find in just about any grocery store. It easily blends into the batter without creating an overly vibrant red color.</p>
+            <p class="img-xs-padding-post text-posts-xs">I would stay away from using gel food coloring as it has a much stronger opacity than liquid food color. It’s very easy to go overboard with the red color when using gel. Although in any other case, I choose to use gel when I only need a few drops to color things such as cookies or frosting.</p>
+            <h4 class="text-left-xs">TIPS FOR MAKING A PERFECT CREAM CHEESE ICING</h4>
+            <p class="img-xs-padding-post text-posts-xs">The icing on top is absolute perfection. It’s creamy, silky, tangy, and the perfect pairing to the moist and rich red velvet cake. Here are a few things to keep in mind when making the glaze:</p>
+            <ol class="list-for-post">
+                <li>Make sure the cream cheese is softened to room temp before use. Otherwise, you’ll be left with a lumpy glaze that looks more like cottage cheese.</li>
+                <li>You can choose to mix it by hand or with an electric mixer. If mixing by hand, start out with a fork and mash the cream cheese smooth. Then mix in 1 cup of powdered sugar along with 1 tablespoon of milk. Continue to mix and mash with a fork until you’ve reached a thinner consistency. Then switch to a whisk to smooth out the icing.</li>
+                <li>The fluidity of the icing must be just right in order to get those creamy drips down the sides of the cake. You’re looking for a consistency that’s just a hair thinner than craft glue. When you lift the whisk out of the bowl, it should fall back in a solid stream and then slowly disappear back into the bowl. If it’s too thick, add 1/2 tablespoon of milk at a time until it’s just right. If it’s too thin, do the same but with 1-2 tablespoons of powdered sugar at a time.</li>
+            </ol>
+            <img src="imgs/post/red-vevlet/red-velvet-bundt-cake-overhead.jpg" class="img-xs-padding-post img-big-post" height="1800" width="1200"/>
+            <h4 class="text-left-xs">HOW TO PREVENT YOUR BUNDT CAKES FROM STICKING</h4>
+            <p class="img-xs-padding-post text-posts-xs">I’ve had so much trouble with this intricate bundt cake pan, especially with really moist and sweet cakes. But through some trial and error, I’ve found a few solutions that give me the perfect release every time.</p>
+            <p class="img-xs-padding-post text-posts-xs">Option 1: Right before you’re about to pour the batter into the pan, prep it with a nonstick oil and flour spray. My favorite is Baker’s Joy. But the key here is to spray in short strokes, careful not to let the oil pool in the bottom of the pan. Once you have a light coating, use a fine pastry brush to brush the oil all around the pan, getting every nook and cranny. Then pour in the batter and bake.</p>
+            <p class="img-xs-padding-post text-posts-xs">When it’s fresh from the oven, set a timer for 10 minutes. This time is the sweet spot because it allows the cake to cool just enough to where it won’t fall apart, but it’s also when the sugars are still fluid and liquid. If you let the cake cool too long, those sugars will harden and your cake will stick to the pan. But after those 10 minutes, the cake should pop right out.</p>
+            <p class="img-xs-padding-post text-posts-xs">Option 2: Again, prep the pan right before you pour in the batter. But this time, generously grease the pan with oat and then coat it in granulated sugar. The sugar acts as a barrier between the cake and the pan, and it also adds a sweet little crunch to the outside of the cake.</p>
+            <p class="img-xs-padding-post text-posts-xs">Once baked, let your cake cool for that 10 minute sweet spot. The key is to turn it out while it’s still a little warm. Otherwise, if you let it cool completely, the sugar will harden and then your cake is really stuck.</p>
+            <p class="img-xs-padding-post text-posts-xs">Your cake should pop right out. No wiggling needed. So if you’ve ever really struggled with your cakes sticking, try this trick!</p>
+            <img src="imgs/post/red-vevlet/red-velvet-bundt-cake-slices.jpg" class="img-xs-padding-post img-big-post" height="1800" width="1200"/>
+            <h4 class="text-left-xs">FOR MORE DELICIOUS BUNDT CAKE RECIPES, CHECK OUT MY:</h4>
 
+
+        </div>
+    </div>
+</section>
+<section id="recent_posts" class="col-xs-12 visible-xs hidden-md">
+    <div class="container">
+        <div class="row">
+            <p class="text-center recent_posts">RECENT POSTS</p>
+            <hr/>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="#">
+                    <img src="imgs/post/red-velvet-bundt-cake-1.jpg" class="img-responsive" height="1800" width="1200"/>
+                </a>
+                <a><p class="text-left">
+                    RED VELVET BUNDT CAKE
+                </p></a>
+            </div>
+            <div class="col-xs-6">
+                <a href="#">
+                    <img src="imgs/post/brown-butter-cinnamon-rolls.jpg" class="img-responsive" height="1800" width="1200"/>
+                </a>
+                <a>
+                    <p class="text-left">BROWN BUTTER CINNAMON ROLLS</p></a>
+            </div>
+            <div class="col-xs-6">
+                <a href="#">
+                    <img src="imgs/post/white-chocolate-pepper-mint.jpg" class="img-responsive" height="1800" width="1200"/>
+                </a>
+                <a>
+                    <P class="text-left">WHITE CHOCOLATE PEPPERMINT CUPCAKES</P>
+                </a>
+            </div>
+            <div class="col-xs-12">
+                <a href="#"><img src="imgs/post/healthy-baked-oatmeal-flavors.jpg" class="img-responsive" height="1800" width="1200"/></a>
+                <a href="#">
+                    <p class="text-left">HEALTHY BAKED OATMEAL - 4 FLAVORS</p></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="col-xs-12 visible-xs hidden-md">
+    <div class="container">
+        <div id="hey_there" class="row">
+            <a href="#">
+                <img src="imgs/Hey there.png" class="center-block" height="500" width=""/></a>
+            <hr/>
+            <p class="text-left">
+                Welcome to Butternut Bakery! I’m here to satisfy your insatiable sweet tooth and help perfect your baking skills. There are desserts here for everyone, whether you’re gluten free, vegan, or love your butter and flour. Either way, you’re sure to find your new favorite dessert recipe.
+            </p>
+            <a href="#">Read more about Jenna Barnard</a>
+            <hr/>
+        </div>
+    </div>
+</section>
+<section class="col-xs-12 visible-xs hidden-md">
+    <div class="container">
+        <div class="row">
+            <a href="https://butternutbakeryblog.com/category/valentines-day-dessert-recipes/">
+                <img src="imgs/Click here.png" class="center-block" height="510" width="auto"/></a>
+            <hr/>
+        </div>
+    </div>
+</section>
+<section class="col-xs-12 visible-xs hidden-md">
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="form-group sub_div">
+                    <p class="text-center paddingforp_2">SUBSCRIBE</p>
+                    <p class="text-center paddingforp_1">for my FREE guide on how bake perfect cookies</p>
+                    <input type="name" class="center-block" placeholder="first name">
+                    <input type="email" class="center-block" placeholder="email address">
+                    <button type="submit" class="btn btn-primary center-block">GO</button>
+                </div>
+            </form>
+            <a href="https://butternutbakeryblog.com/shop/" class="center-block">
+                <img src="imgs/click_to_shop_600x148.png" class="center-block" id="clickto_shop" height="auto" width="300"/></a>
+            <hr/>
+        </div>
+    </div>
+</section>
+<section class="col-xs-12 visible-xs hidden-md">
+    <div class="container" id="insta_feed">
+        <div class="row center-block">
+            <p class="text-center">FOLLOW ME ON INSTAGRAM</p>
+            <a href="https://www.instagram.com/p/CKjYo6dpdfU/" class="col-xs-4">
+                <img src="imgs/insta/1.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKgx_0Oprht/" class="col-xs-4">
+                <img src="imgs/insta/2.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKeOEIEJS-n/" class="col-xs-4">
+                <img src="imgs/insta/3.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKWflvKJGjk/" class="col-xs-4">
+                <img src="imgs/insta/4.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKT9oJ0JfCY/" class="col-xs-4">
+                <img src="imgs/insta/5.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKRa43fpWU1/" class="col-xs-4">
+                <img src="imgs/insta/6.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKOyp41pwWS/" class="col-xs-4">
+                <img src="imgs/insta/7.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKMMCxzJFkF/" class="col-xs-4">
+                <img src="imgs/insta/8.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/p/CKEepXapiNL/" class="col-xs-4">
+                <img src="imgs/insta/9.jpg" class="" height="1440" width="1440"/></a>
+            <a href="https://www.instagram.com/butternutbakery/">
+                <button class="btn btn-primary center-block"><i class="fab fa-instagram"></i> Follow on Instagram</button>
+            </a>
+            <hr/>
+        </div>
+    </div>
+</section>
+<section class="col-xs-12 visible-xs hidden-md">
+    <div class="container">
+        <div class="row center-block">
+            <p>TOP 10 READER FAVORITE RECIPES</p>
+            <a href="#">
+                <p>Basque Burnt Cheescake</p>
+            </a>
+            <a href="#">
+                <p>Cookie Dough Cake</p>
+            </a>
+            <a href="#">
+                <p>Funfetti Cake</p>
+            </a>
+            <a href="#">
+                <p>Pumpkin Bread with Streusel Topping</p>
+            </a>
+            <a href="#">
+                <p>Chocolate Chip Banana Bread</p>
+            </a>
+            <a href="#">
+                <p>Better than Boxed Brownies</p>
+            </a>
+            <a href="#">
+                <p>Edible Brownie Batter Cookie Dough</p>
+            </a>
+            <a href="#">
+                <p>New York Cheesecake</p>
+            </a>
+            <a href="#">
+                <p>Red Velvet Bundt Cake</p>
+            </a>
+            <a href="#">
+                <p>Gluten Free Chocolate Chip Cookiese</p>
+            </a>
+        </div>
+    </div>
+</section>
 </body>
 </html>

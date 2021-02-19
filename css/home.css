@@ -92,11 +92,11 @@ img:hover{
     padding-bottom: 10px;
     padding-top: 40px;
 }
-#sub_div{
+.sub_div{
     background-color: #faf9f6;
     height: 280px;
 }
-#sub_div p{
+.sub_div p{
     font-size: 11px;
 
 }
@@ -109,7 +109,7 @@ img:hover{
     padding-top: 60px;
     letter-spacing: 2px;
 }
-#sub_div input{
+.sub_div input{
     display: block;
     width: 80%;
     height: 34px;
@@ -131,15 +131,15 @@ img:hover{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 }
-#sub_div input[type=name]:focus{
+.sub_div input[type=name]:focus{
     border-color: #5e5e5e;
     outline: 0;
 }
-#sub_div input[type=email]:focus{
+.sub_div input[type=email]:focus{
     border-color: #5e5e5e;
     outline: 0;
 }
-#sub_div button{
+.sub_div button{
     background-color: #faf9f6;
     color: black;
     box-sizing: border-box;
@@ -151,7 +151,7 @@ img:hover{
     font-weight: bold;
     width: 80%;
 }
-#sub_div button:hover{
+.sub_div button:hover{
     color: #b77b59;
     background-color: white;
 }
@@ -178,7 +178,37 @@ img:hover{
 #insta_feed button:hover{
     opacity: 70%;
 }
+.text-posts-xs{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.text-left-xs{
+    margin-left: 0px;
+}
+.img-xs-padding-post{
+    padding-bottom: 50px;
+}
+.img-small-post{
+    width: 255px;
+    height: auto;
+    margin-left: -17px;
+    margin-right: -3px;
+}
+.img-big-post{
+    width: 460px;
+    height: auto;
+}
+.list-for-post li{
+    font-weight: 300;
+    margin-right: 6px;
+    padding-bottom: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
 
+}
+.text-bold-1{
+    font-weight: bold;
+}
 /*!
 for PC
  */
@@ -201,7 +231,7 @@ for PC
     padding-bottom: 10px;
     padding-top: 40px;
 }
-#text-date-big{
+.text-date-big{
     white-space: pre;
     color: darkgray;
     font-weight: 300;
@@ -212,10 +242,116 @@ for PC
     margin-left: 49px;
     margin-top: 20px;
 }
-#cap_pic_post{
+.cap_pic_post{
     margin-right: 68px;
     margin-top: 20px;
 }
 .left-for-text{
     margin-left: 24px;
+}
+.post-text-pc{
+    margin-top: 18px;
+    margin-right: 42px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.mybtn-pc{
+    background-color: #faf9f6;
+    border: none;
+    color: #b77b59;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-left: 22px;
+}
+.width_for_line{
+    width: 290px;
+}
+.text-hey-there{
+    width: 294px;
+    font-size: 13px;
+    margin-left: 41px;
+}
+#hey_there_big p{
+    margin-top: -22px;
+}
+
+.sub_div_big{
+    width: 272px;
+    height: 291px;
+    margin-left: 45px;
+}
+.sub_div_big p{
+    font-size: 13px;
+
+}
+.padding-sub-big{
+    padding-top: 40px;
+    letter-spacing: 1.5px;
+}
+.padding-sub-big2{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+.img-post-pc{
+    height: auto;
+    width: 220px;
+    padding-top: 50px;
+}
+.text-posts{
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#insta_feed_pc{
+    margin-left: 26px;
+}
+.title-social{
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+#insta_feed_pc img{
+    margin: 0;
+    width: 96px;
+    height: auto;
+    padding-bottom: 3px;
+    padding-right: 12px;
+
+}
+#insta_feed_pc button{
+    box-sizing: border-box;
+    margin-top: 18px;
+    background-color: darkgrey;
+    border: none;
+}
+#insta_feed_pc button:hover{
+    opacity: 70%;
+}
+.center_for_insta{
+    margin-left: 57px;
+}
+.margin-top10{
+    margin-left: -14px;
+    margin-right: -50px;
+    padding-left: 66px;
+}
+.top10-text{
+    margin-left: 27px;
+    margin-right: -40px;
+
+}
+#top-10-post-pc{
+    height: 200px;
+}
+#recent_posts_pc{
+    margin-top: -50px;
 }
