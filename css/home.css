@@ -103,7 +103,7 @@ img:hover{
 .paddingforp_1{
     padding-top: 20px;
     padding-bottom: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 .paddingforp_2{
     padding-top: 60px;
@@ -448,4 +448,14 @@ for PC
 }
 .last-item-pc{
     padding-bottom: 100px;
+}
+.img-for-pc{
+    height: auto;
+    width: 680px;
+    margin-left: 24px;
+}
+.three-img-pc{
+    height: auto;
+    width: 220px;
+    margin-right: 10px;
 }
