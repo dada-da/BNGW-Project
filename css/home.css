@@ -183,7 +183,7 @@ img:hover{
     margin-right: 10px;
 }
 .text-left-xs{
-    margin-left: 0px;
+    margin-left: 0;
 }
 .img-xs-padding-post{
     padding-bottom: 50px;
@@ -193,6 +193,12 @@ img:hover{
     height: auto;
     margin-left: -17px;
     margin-right: -3px;
+}
+.img-small-post-4{
+    width: 224px;
+    height: auto;
+    margin-left: 1px;
+    margin-right: 16px;
 }
 .img-big-post{
     width: 460px;
@@ -236,7 +242,12 @@ for PC
     color: darkgray;
     font-weight: 300;
 }
-
+#jenna_big{
+    color: #b77b59;
+}
+#jenna_big:hover{
+    filter: brightness(150%);
+}
 .cap_pic_post{
     margin-right: 68px;
     margin-top: 20px;
@@ -458,4 +469,10 @@ for PC
     height: auto;
     width: 220px;
     margin-right: 10px;
+}
+.img-big-post-4{
+    width: 300px;
+    height: auto;
+    margin-left: 1px;
+    margin-right: 16px;
 }
